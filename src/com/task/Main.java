@@ -209,9 +209,9 @@ public class Main {
 
         /* До сортировки */
         for (bicycle Bicycle : lstBicycle) {
-            if (Bicycle instanceof oneWheeledBicycle) System.out.print("2");
-            if (Bicycle instanceof twoWheeledBicycle) System.out.print("3");
-            if (Bicycle instanceof threeWheeledBicycle) System.out.print("4");
+            if (Bicycle instanceof oneWheeledBicycle) System.out.print("1");
+            if (Bicycle instanceof twoWheeledBicycle) System.out.print("2");
+            if (Bicycle instanceof threeWheeledBicycle) System.out.print("3");
         }
 
         System.out.println();
